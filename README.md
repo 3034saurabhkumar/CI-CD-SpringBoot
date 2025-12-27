@@ -1,6 +1,6 @@
 # CI/CD Pipeline – Spring Boot Application 🚀
 
-This repository demonstrates an **end-to-end CI/CD pipeline** using **Jenkins, Docker, GitHub, and Argo CD (Operator-based)**.
+This repository demonstrates an **end-to-end CI/CD pipeline** using **Jenkins, Docker, GitHub, Kubernetes and Argo CD (Operator-based)**.
 
 ---
 
@@ -17,29 +17,30 @@ This repository demonstrates an **end-to-end CI/CD pipeline** using **Jenkins, D
 
 ## 📁 Repositories Used
 
-| Repository | Purpose |
-|----------|--------|
-| `myFirstProject` | Spring Boot application source code |
-| `CI-CD_implementation` | Kubernetes manifests (`deployment.yml`, `service.yml`) |
+| Repository | Purpose | URL |
+|----------|--------|-----|
+| `myFirstProject` | Spring Boot application source code | https://github.com/3034saurabhkumar/myFirstProject |
+| `CI-CD_implementation` | Kubernetes manifests (`deployment.yml`, `service.yml`) | https://github.com/3034saurabhkumar/CI-CD_implementation |
+
 
 ---
 
 ## 🔁 CI/CD Workflow Overview
 ```
 Developer Commit
-↓
+      ↓
 GitHub (Release Branch)
-↓
+      ↓
 Jenkins Pipeline
-↓
+      ↓
 Maven Build
-↓
+      ↓
 Docker Image Build & Push
-↓
+      ↓
 Update Deployment Repo
-↓
+      ↓
 Argo CD Sync
-↓
+      ↓
 Kubernetes Deployment
 ```
 
