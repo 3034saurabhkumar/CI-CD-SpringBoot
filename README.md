@@ -2,8 +2,7 @@
 
 This repository demonstrates an **end-to-end CI/CD pipeline** using **Jenkins, Docker, GitHub, Kubernetes and Argo CD (Operator-based)**.
 
-<img width="1266" height="502" alt="image" src="https://github.com/user-attachments/assets/a2eeeef1-0050-4924-a360-388677c3bf84" />
-
+<img width="1266" height="502" alt="image" src="https://github.com/user-attachments/assets/2ba8f379-fffd-42c8-8b33-219933399558" />
 
 ---
 ### 🔖 Key Concepts
